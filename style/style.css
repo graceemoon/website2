@@ -1,0 +1,10 @@
+body {
+
+}
+
+
+.social-media div{
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
