@@ -2,6 +2,15 @@ body {
 
 }
 
+nav  a {
+	text-decoration: none;
+}
+
+nav li {
+	list-style-type: none;
+	padding: 5px;
+}
+
 
 .social-media div{
 	display: inline-block;
