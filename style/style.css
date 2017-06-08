@@ -1,4 +1,5 @@
 body {
+margin: 0;
 
 }
 
@@ -17,3 +18,25 @@ nav li {
 	float: left;
 	padding: 5px;
 }
+
+
+.image-fix {
+	background-image: url("./../img/bom.jpg");	
+}
+#intro { /*zoom in to out*/
+	background-image: url("./../img/bom.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: top;
+	animation: ;
+}
+h1 {
+	text-align: center;
+}
+
+
+
+
+
