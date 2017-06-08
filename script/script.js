@@ -16,14 +16,10 @@ $('.burger').click(function() {
 
 // image hover zoom/rotation
     $('.product a').hover(function() {
-        $('.iz').addClass('transition');
+        $('.iz', this).addClass('transition');
     }, function() {
-        $('.iz').removeClass('transition');
+        $('.iz', this).removeClass('transition');
     });
-
-
-
-
 
 
 
