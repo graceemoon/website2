@@ -7,32 +7,47 @@ $('nav').hide();
 
 $('.burger').click(function() {
 	$('nav').slideToggle(280, function() {
-		// direction: 'left'
+		direction: 'left'
 		$('nav').css("z-index", "100");
 	})
 })
 
 
-var main = function() {
-  /* Push the body and the nav over by 285px over */
-  $('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
+// var main = function() {
+//   $('.icon-menu').click(function() {
+//     $('.menu').animate({
+//       left: "0px"
+//     }, 200);
 
-    $('body').animate({
-      left: "285px"
-    }, 200);
-  });
+//     $('body').animate({
+//       left: "285px"
+//     }, 200);
+//   });
 
-  /* Then push them back */
-  $('.icon-close').click(function() {
-    $('.menu').animate({
-      left: "-285px"
-    }, 200);
+//   $('.icon-close').click(function() {
+//     $('.menu').animate({
+//       left: "-285px"
+//     }, 200);
 
-    $('body').animate({
-      left: "0px"
-    }, 200);
-  });
-};
+//     $('body').animate({
+//       left: "0px"
+//     }, 200);
+//   });
+// };
+
+
+
+// hover over image with .iz class for zoom
+    $('.product a').hover(function() {
+        $('.iz').addClass('transition');
+    }, function() {
+        $('.iz').removeClass('transition');
+    });
+
+
+
+
+
+
+
+
