@@ -5,12 +5,21 @@ console.log("gracee's website #2 dedicated to sexy makeup");
 
 $('nav').hide();
 
-$('.burger').click(function() {
-	$('nav').toggle(280, function() {
-		// $('span', this).toggleClass('.span-toggle')
-	})
-})
+// $('.burger').click(function() {
+// 	$('nav').slideToggle(800, function() {
+// 		// $('span', this).toggleClass('.span-toggle')
+// 	})
+// })
 
+// jquery ui slide from left to right nav
+// $('.burger').click(function(){
+// 	$('nav').toggle('slide');
+// })
+
+
+$('.burger').click(function(){
+	$('nav').toggle('slide', {direction:'left'}, 300)
+})
 
 
 // image hover zoom/rotation
