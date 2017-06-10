@@ -11,9 +11,10 @@ nav {
 	display: block;
 	position: fixed;
 	z-index: 100;
+	width: 200px;
 	height: 100vh;
 	background-color: #fafafa;
-	box-shadow: 2px 0px 10px 1px;
+	box-shadow: 1px 0px 10px 1px;
 }
 nav > div {
 	display: block;
@@ -30,7 +31,7 @@ nav h1 {
 }
 nav  a {
 	text-decoration: none;
-	color: #fafafa;
+	color: #101010;
 }
 nav a:hover {
 	color: #aa0000;
@@ -109,7 +110,7 @@ background-image: url("./../img/bom.jpg");
 	cursor: pointer;
 }
 .span-toggle {
-	background-color: #ff0000;
+	background-color: #000000;
 }
 
 
@@ -200,7 +201,7 @@ background-image: url("./../img/bom.jpg");
 	transition: all 1.8s ease;
 }
 .transition {
-	transform: scale(1.05) rotate(5deg);
+	transform: scale(1.08) rotate(5deg);
 }
 
 
