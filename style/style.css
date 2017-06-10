@@ -78,7 +78,6 @@ nav ul {
 .fa {
 	margin: 10px;
 	color: red;
-
 }
 .fa:hover {
 	color: #aaaaaa;
@@ -119,8 +118,8 @@ background-image: url("./../img/bom.jpg");
 	width: 100vw;
 }
 /*opened menu bar class*/
-.main-wrap.open {
-	left: 150px;
+.open {
+	left: 255px;
 }
 
 .burger {

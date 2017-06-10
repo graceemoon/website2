@@ -18,8 +18,9 @@ $('nav').hide();
 
 
 $('.burger').click(function(){
-	$('nav').toggle('slide', {direction:'left'}, 300)
-})
+	$('nav').toggle('slide', {direction:'left'}, 300);
+	$('.wrapped').toggleClass('open', 300)
+});
 
 
 // image hover zoom/rotation
