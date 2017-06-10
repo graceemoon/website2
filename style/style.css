@@ -49,13 +49,25 @@ nav ul {
 }
 .social-media{
 	position: absolute;
-	padding: 5px;
+	padding: 0;
+	margin: auto;
+	display: flex;
 	bottom: 0;
+	overflow: hidden;
+	width: 250px;
 }
 .social-media > div{
+	flex-grow: 1;
 	color: #fafafa;
 	display: inline-block;
 	padding: 5px;
+	border-top: 1px solid #aaaaaa;
+}
+.social-media > div:nth-child(1) {
+	border-right: 1px solid #aaaaaa;
+}
+.social-media > div:nth-child(3) {
+	border-left: 1px solid #aaaaaa;
 }
 
 
