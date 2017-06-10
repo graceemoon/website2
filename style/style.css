@@ -11,7 +11,7 @@ nav {
 	display: block;
 	position: fixed;
 	z-index: 100;
-	width: 250px;
+	width: 255px;
 	height: 100vh;
 	background-color: #fafafa;
 	box-shadow: 1px 0px 10px 1px;
@@ -37,7 +37,7 @@ nav  a {
 	letter-spacing: .2em;
 }
 nav a:hover {
-	color: #aa0000;
+	color: red;
 }
 nav li {
 	list-style-type: none;
@@ -54,14 +54,19 @@ nav ul {
 	display: flex;
 	bottom: 0;
 	overflow: hidden;
-	width: 250px;
+	width: 255px;
 }
-.social-media > div{
+.social-media > div {
 	flex-grow: 1;
 	color: #fafafa;
 	display: inline-block;
-	padding: 5px;
+	/*padding: 5px;*/
 	border-top: 1px solid #aaaaaa;
+	/*overflow: hidden;*/
+}
+.sm > a {
+	display: block;
+	padding: auto;
 }
 .social-media > div:nth-child(1) {
 	border-right: 1px solid #aaaaaa;
@@ -70,6 +75,20 @@ nav ul {
 	border-left: 1px solid #aaaaaa;
 }
 
+.fa {
+	margin: 10px;
+	color: red;
+
+}
+.fa:hover {
+	color: #aaaaaa;
+	animation: whatevs 1s ease-in-out;
+}
+@keyframes whatevs {
+	0% { transform: rotate(0deg); }
+	50% { transform: rotate(360deg); }
+	100% { transform: rotate(0deg); }
+}
 
 .image-fix {
 	background-image: url("./../img/bom.jpg");	
