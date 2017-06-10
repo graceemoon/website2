@@ -8,7 +8,8 @@ $('nav').hide();
 $('.burger').click(function() {
 	$('nav').slideToggle(280, function() {
 		// direction: 'left'
-		$('nav').css("z-index", "100");
+		// $('nav').css("z-index", "100");
+		$('span', this).toggleClass('.span-toggle')
 	})
 })
 

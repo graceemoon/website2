@@ -108,6 +108,9 @@ background-image: url("./../img/bom.jpg");
 .burger:hover {
 	cursor: pointer;
 }
+.span-toggle {
+	background-color: #ff0000;
+}
 
 
 .wrapped {
@@ -194,8 +197,8 @@ background-image: url("./../img/bom.jpg");
 	padding: 5px;
 }
 .iz {
-	transition: all .25s ease-in-out;
+	transition: all 1.8s ease;
 }
 .transition {
-	transform: scale(1.15) rotate(15deg);
+	transform: scale(1.05) rotate(5deg);
 }
