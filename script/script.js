@@ -31,5 +31,3 @@ $('.product a').hover(function() {
 });
 
 
-
-
