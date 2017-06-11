@@ -236,6 +236,7 @@ background-image: url("./../img/bom.jpg");
 	overflow: hidden;
 	height: 350px;
 	width: 350px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 .product img{
