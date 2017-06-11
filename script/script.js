@@ -20,6 +20,8 @@ $('nav').hide();
 $('.burger').click(function(){
 	$('nav').toggle('slide', {direction:'left'}, 300);
 	$('.wrapped').toggleClass('open', 300)
+	console.log($(this).find('span'))
+	$(this).find('span').toggleClass('span-toggle');
 });
 
 
