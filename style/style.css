@@ -120,16 +120,18 @@ background-image: url("./../img/bom.jpg");
 	text-align: center;
 	letter-spacing: .2em;
 	opacity: 0;
-	animation: words-down .5s linear 1s forwards;
-	border: 5px solid black;
+	animation: words-down .22s linear 1s forwards;
+	border: 8px solid black;
+	box-shadow: 0px 0px 80px #ffffff;
 	background-color: rgba(255,255,255,0.7);
 	padding: 50px;
+	cursor: pointer;
 }
 .words h1 {
 	color: red;
 }
 @keyframes words-down {
-	0% { margin-top: 10vh;
+	0% { margin-top: 20vh;
 		opacity: 0; }	
 	100% { margin-top: 30vh;
 		opacity: 1; }
@@ -285,9 +287,7 @@ background-image: url("./../img/bom.jpg");
 		padding-top: 95%; }
 }
 
-.words-trans {
-		transition: all .3s ease-in;
-}
+
 
 .iz {
 	transform: scale(1.05);

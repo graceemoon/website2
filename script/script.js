@@ -3,6 +3,14 @@ console.log("gracee's website #2 dedicated to sexy makeup");
 "use strict";
 
 
+
+// launch page click to head to collection page
+$('.words').click(function() {
+	window.location.href='collection.html';
+});
+
+
+
 $('nav').hide();
 
 // $('.burger').click(function() {
