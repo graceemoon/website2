@@ -266,7 +266,7 @@ background-image: url("./../img/bom.jpg");
 	color: #000000;
 	font-size: 14px;
 	overflow: hidden;
-		border: 2px solid black;
+		/*border: 2px solid black;*/
 }
 .product span {
 	display: none;
@@ -315,25 +315,35 @@ background-image: url("./../img/bom.jpg");
 
 /*COLLECTIONS PAGE ADD TO CART*/
 #fa-cart {
-	color: #ff7b7b;
+	color: #ffc8c8;
 	position: absolute;
 	top: 1%;
-	right: 1%;
+	right: 5%;
 	z-index: 2;
 	font-size: 50px;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 100%;
+
+		border: 2px solid #ffc8c8;
+	padding: 7px;
 	opacity: 0;
 	animation: cart-trans.1s ease-in;
 	transition: all .3s ease-in;
 }
 #fa-cart:hover {
-	color: #ffc8c8;
+/*	color: #ffc8c8;
+	border: 2px solid #ffc8c8;*/
+		color: #ff7b7b;
+		border: 2px solid #ff7b7b;
+	background-color: rgba(255,255,255,.5);
+	opacity: 1.0;
 }
 #fa-cart.cart-opacity {
-	opacity: 1;
+	opacity: 1.0;
 }
 @keyframes cart-trans {
 	0% {opacity: 0;}
-	100% {opacity: 1;}
+	100% {opacity: 1.0;}
 }
 
 
