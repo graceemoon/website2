@@ -34,8 +34,13 @@ $('.burger').click(function(){
 // image hover zoom/rotation
 $('.product a').hover(function() {
     $('.iz', this).addClass('transition');
+    $('#fa-cart', this).addClass('cart-opacity');
 }, function() {
     $('.iz', this).removeClass('transition');
+       $('#fa-cart', this).removeClass('cart-opacity');
 });
+
+
+
 
 

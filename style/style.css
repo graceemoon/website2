@@ -75,6 +75,7 @@ nav ul {
 	border-left: 1px solid #aaaaaa;
 }
 
+/*nav bar bottom social media buttons*/
 .fa {
 	margin: 10px;
 	color: red;
@@ -166,7 +167,7 @@ background-image: url("./../img/bom.jpg");
   margin-bottom: 3px;
   width: 30px;
   border-radius: 1px;
-  background-color: rgba(255,200,200,1.0);
+  background-color: #ffc8c8;
   transition: background-color 1s ease;
 
 }
@@ -174,7 +175,7 @@ background-image: url("./../img/bom.jpg");
 	cursor: pointer;
 }
 .span-toggle {
-	background-color: red !important;
+	background-color: #ff7b7b !important;
 }
 
 /*--------------------------------------------------------*/
@@ -252,9 +253,9 @@ background-image: url("./../img/bom.jpg");
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.product img{
+/*.product img{
 	height: 350px;
-}
+}*/
 .product a {
 	position: relative;
 	display: block;
@@ -265,7 +266,7 @@ background-image: url("./../img/bom.jpg");
 	color: #000000;
 	font-size: 14px;
 	overflow: hidden;
-		/*border: 2px solid black;*/
+		border: 2px solid black;
 }
 .product span {
 	display: none;
@@ -304,8 +305,6 @@ background-image: url("./../img/bom.jpg");
 		padding-top: 95%; }
 }
 
-
-
 .iz {
 	transform: scale(1.05);
 	transition: all .3s ease-in;
@@ -314,6 +313,28 @@ background-image: url("./../img/bom.jpg");
 	transform: scale(0.9) rotate(7deg);
 }
 
+/*COLLECTIONS PAGE ADD TO CART*/
+#fa-cart {
+	color: #ff7b7b;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	z-index: 2;
+	font-size: 50px;
+	opacity: 0;
+	animation: cart-trans.1s ease-in;
+	transition: all .3s ease-in;
+}
+#fa-cart:hover {
+	color: #ffc8c8;
+}
+#fa-cart.cart-opacity {
+	opacity: 1;
+}
+@keyframes cart-trans {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
 
 
 
