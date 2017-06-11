@@ -186,11 +186,14 @@ background-image: url("./../img/bom.jpg");
 	/*align-items: center;*/
 	justify-content: space-between;
 	background-color: #ffffff;
+	opacity: 0;
+	animation: opa-on 1s ease-in forwards;
 }
-/*    .wrapped > div {
-        flex: 1;
-    }*/
-
+/*  Page transition fade in  */
+@keyframes opa-on {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
 
 
 
