@@ -24,11 +24,11 @@ $('.burger').click(function(){
 
 
 // image hover zoom/rotation
-    $('.product a').hover(function() {
-        $('.iz', this).addClass('transition');
-    }, function() {
-        $('.iz', this).removeClass('transition');
-    });
+$('.product a').hover(function() {
+    $('.iz', this).addClass('transition');
+}, function() {
+    $('.iz', this).removeClass('transition');
+});
 
 
 
