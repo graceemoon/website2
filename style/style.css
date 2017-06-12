@@ -76,11 +76,11 @@ nav ul {
 }
 
 /*nav bar bottom social media buttons*/
-.fa {
+.fas {
 	margin: 10px;
 	color: red;
 }
-.fa:hover {
+.fas:hover {
 	color: #aaaaaa;
 	animation: whatevs 1s ease-in-out;
 }
@@ -323,8 +323,8 @@ background-image: url("./../img/bom.jpg");
 	font-size: 50px;
 	background-color: rgba(255,255,255,.5);
 	border-radius: 100%;
-
-		border: 2px solid #ffc8c8;
+	width: 50px;
+	border: 2px solid #ffc8c8;
 	padding: 7px;
 	opacity: 0;
 	animation: cart-trans.1s ease-in;
@@ -333,8 +333,8 @@ background-image: url("./../img/bom.jpg");
 #fa-cart:hover {
 /*	color: #ffc8c8;
 	border: 2px solid #ffc8c8;*/
-		color: #ff7b7b;
-		border: 2px solid #ff7b7b;
+	color: #ff7b7b;
+	border: 2px solid #ff7b7b;
 	background-color: rgba(255,255,255,.5);
 	opacity: 1.0;
 }
@@ -346,7 +346,21 @@ background-image: url("./../img/bom.jpg");
 	100% {opacity: 1.0;}
 }
 
-
+#fa-check {
+	color: #ff7b7b;
+	position: absolute;
+	z-index: 3;
+	top: 1%;
+	right: 5%;
+	width: 50px;
+	font-size: 50px;
+	border-radius: 100%;
+	border: 2px solid #ffc8c8;
+	padding: 7px;
+	opacity: 0;
+/*	animation: cart-trans.1s ease-in;
+	transition: all .3s ease-in;*/
+}
 
 
 

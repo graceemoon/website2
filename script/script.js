@@ -31,14 +31,43 @@ $('.burger').click(function(){
 });
 
 
-// image hover zoom/rotation
+// image hover zoom/rotation + cart transition
+// $('.product a').hover(function() {
+//     $('.iz', this).addClass('transition');
+//     $('#fa-cart', this).addClass('cart-opacity');
+// }, function() {
+//     $('.iz', this).removeClass('transition');
+//     $('#fa-cart', this).removeClass('cart-opacity');
+// });
+
+
+
+// add to cart
 $('.product a').hover(function() {
     $('.iz', this).addClass('transition');
     $('#fa-cart', this).addClass('cart-opacity');
+        // $('.fa-checks', this).css('opacity', '1');
 }, function() {
     $('.iz', this).removeClass('transition');
-       $('#fa-cart', this).removeClass('cart-opacity');
+    $('#fa-cart', this).removeClass('cart-opacity');
+
+    // $('.fa-checks', this).css('opacity', '0');
 });
+
+
+// $('.add-cart').click(function() {
+// 	console.log('check check?')
+// 	$('#fa-check').css('opacity', '1');
+// }, function() {
+// 	$('#fa-check').css('opacity', '0');
+// })
+
+
+
+
+
+
+
 
 
 
