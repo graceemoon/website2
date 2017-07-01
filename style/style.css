@@ -92,7 +92,7 @@ nav ul {
 
 
 
-.tophead {
+.top-head {
 	color: #ff0000;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -100,9 +100,9 @@ nav ul {
 	font-family: 'Comfortaa', cursive;
 	z-index: 10;
 	text-align: center;
-	position: relative;
 	margin: 15px;
-	
+	position: absolute;
+	width: 100%;
 }
 
 
