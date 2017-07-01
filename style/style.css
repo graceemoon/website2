@@ -175,7 +175,7 @@ background-image: url("./../img/bom.jpg");
 	/*vertical-align: top;*/
 	height: 20px;
 	width: 30px;
-	margin: 0 15px;
+	margin: 15px;
 }
 .burger  span {
   display: block;
